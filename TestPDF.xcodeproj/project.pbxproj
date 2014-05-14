@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCE6FEBA192116D1006B0CED /* NSEvent+View.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE6FEB9192116D1006B0CED /* NSEvent+View.m */; };
+		CCEAD1DD1920B72F000E8B1B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCEAD1DC1920B72F000E8B1B /* Cocoa.framework */; };
+		CCEAD1E71920B72F000E8B1B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCEAD1E51920B72F000E8B1B /* InfoPlist.strings */; };
+		CCEAD1E91920B72F000E8B1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEAD1E81920B72F000E8B1B /* main.m */; };
+		CCEAD1ED1920B72F000E8B1B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CCEAD1EB1920B72F000E8B1B /* Credits.rtf */; };
+		CCEAD1F01920B72F000E8B1B /* TSPDFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEAD1EF1920B72F000E8B1B /* TSPDFDocument.m */; };
+		CCEAD1F31920B72F000E8B1B /* TSPDFDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCEAD1F11920B72F000E8B1B /* TSPDFDocument.xib */; };
+		CCEAD1F61920B72F000E8B1B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCEAD1F41920B72F000E8B1B /* MainMenu.xib */; };
+		CCEAD1F81920B72F000E8B1B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCEAD1F71920B72F000E8B1B /* Images.xcassets */; };
+		CCEAD1FF1920B72F000E8B1B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCEAD1FE1920B72F000E8B1B /* XCTest.framework */; };
+		CCEAD2001920B72F000E8B1B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCEAD1DC1920B72F000E8B1B /* Cocoa.framework */; };
+		CCEAD2081920B72F000E8B1B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCEAD2061920B72F000E8B1B /* InfoPlist.strings */; };
+		CCEAD20A1920B72F000E8B1B /* TestPDFTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEAD2091920B72F000E8B1B /* TestPDFTests.m */; };
+		CCEAD2151920B83C000E8B1B /* TSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEAD2141920B83C000E8B1B /* TSAppDelegate.m */; };
+		CCEAD2181920BA74000E8B1B /* TSPDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEAD2171920BA74000E8B1B /* TSPDFView.m */; };
+		CCEAD21B1920C39E000E8B1B /* ZUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEAD21A1920C39E000E8B1B /* ZUtils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCEAD2011920B72F000E8B1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCEAD1D11920B72F000E8B1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCEAD1D81920B72F000E8B1B;
+			remoteInfo = TestPDF;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCE6FEB8192116D1006B0CED /* NSEvent+View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSEvent+View.h"; sourceTree = "<group>"; };
+		CCE6FEB9192116D1006B0CED /* NSEvent+View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSEvent+View.m"; sourceTree = "<group>"; };
+		CCEAD1D91920B72F000E8B1B /* TestPDF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPDF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCEAD1DC1920B72F000E8B1B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CCEAD1DF1920B72F000E8B1B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CCEAD1E01920B72F000E8B1B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CCEAD1E11920B72F000E8B1B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CCEAD1E41920B72F000E8B1B /* TestPDF-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestPDF-Info.plist"; sourceTree = "<group>"; };
+		CCEAD1E61920B72F000E8B1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCEAD1E81920B72F000E8B1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCEAD1EA1920B72F000E8B1B /* TestPDF-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestPDF-Prefix.pch"; sourceTree = "<group>"; };
+		CCEAD1EC1920B72F000E8B1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CCEAD1EE1920B72F000E8B1B /* TSPDFDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSPDFDocument.h; sourceTree = "<group>"; };
+		CCEAD1EF1920B72F000E8B1B /* TSPDFDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSPDFDocument.m; sourceTree = "<group>"; };
+		CCEAD1F21920B72F000E8B1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/TSPDFDocument.xib; sourceTree = "<group>"; };
+		CCEAD1F51920B72F000E8B1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CCEAD1F71920B72F000E8B1B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CCEAD1FD1920B72F000E8B1B /* TestPDFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPDFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCEAD1FE1920B72F000E8B1B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CCEAD2051920B72F000E8B1B /* TestPDFTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestPDFTests-Info.plist"; sourceTree = "<group>"; };
+		CCEAD2071920B72F000E8B1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCEAD2091920B72F000E8B1B /* TestPDFTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPDFTests.m; sourceTree = "<group>"; };
+		CCEAD2131920B83C000E8B1B /* TSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSAppDelegate.h; sourceTree = "<group>"; };
+		CCEAD2141920B83C000E8B1B /* TSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSAppDelegate.m; sourceTree = "<group>"; };
+		CCEAD2161920BA74000E8B1B /* TSPDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSPDFView.h; sourceTree = "<group>"; };
+		CCEAD2171920BA74000E8B1B /* TSPDFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSPDFView.m; sourceTree = "<group>"; };
+		CCEAD2191920C39E000E8B1B /* ZUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZUtils.h; sourceTree = "<group>"; };
+		CCEAD21A1920C39E000E8B1B /* ZUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZUtils.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCEAD1D61920B72F000E8B1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCEAD1DD1920B72F000E8B1B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEAD1FA1920B72F000E8B1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCEAD2001920B72F000E8B1B /* Cocoa.framework in Frameworks */,
+				CCEAD1FF1920B72F000E8B1B /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCEAD1D01920B72F000E8B1B = {
+			isa = PBXGroup;
+			children = (
+				CCEAD1E21920B72F000E8B1B /* TestPDF */,
+				CCEAD2031920B72F000E8B1B /* TestPDFTests */,
+				CCEAD1DB1920B72F000E8B1B /* Frameworks */,
+				CCEAD1DA1920B72F000E8B1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCEAD1DA1920B72F000E8B1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCEAD1D91920B72F000E8B1B /* TestPDF.app */,
+				CCEAD1FD1920B72F000E8B1B /* TestPDFTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCEAD1DB1920B72F000E8B1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCEAD1DC1920B72F000E8B1B /* Cocoa.framework */,
+				CCEAD1FE1920B72F000E8B1B /* XCTest.framework */,
+				CCEAD1DE1920B72F000E8B1B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCEAD1DE1920B72F000E8B1B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCEAD1DF1920B72F000E8B1B /* AppKit.framework */,
+				CCEAD1E01920B72F000E8B1B /* CoreData.framework */,
+				CCEAD1E11920B72F000E8B1B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CCEAD1E21920B72F000E8B1B /* TestPDF */ = {
+			isa = PBXGroup;
+			children = (
+				CCE6FEB8192116D1006B0CED /* NSEvent+View.h */,
+				CCE6FEB9192116D1006B0CED /* NSEvent+View.m */,
+				CCEAD1EE1920B72F000E8B1B /* TSPDFDocument.h */,
+				CCEAD1EF1920B72F000E8B1B /* TSPDFDocument.m */,
+				CCEAD1F11920B72F000E8B1B /* TSPDFDocument.xib */,
+				CCEAD2161920BA74000E8B1B /* TSPDFView.h */,
+				CCEAD2171920BA74000E8B1B /* TSPDFView.m */,
+				CCEAD1F41920B72F000E8B1B /* MainMenu.xib */,
+				CCEAD1F71920B72F000E8B1B /* Images.xcassets */,
+				CCEAD1E31920B72F000E8B1B /* Supporting Files */,
+				CCEAD2131920B83C000E8B1B /* TSAppDelegate.h */,
+				CCEAD2141920B83C000E8B1B /* TSAppDelegate.m */,
+				CCEAD2191920C39E000E8B1B /* ZUtils.h */,
+				CCEAD21A1920C39E000E8B1B /* ZUtils.m */,
+			);
+			path = TestPDF;
+			sourceTree = "<group>";
+		};
+		CCEAD1E31920B72F000E8B1B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCEAD1E41920B72F000E8B1B /* TestPDF-Info.plist */,
+				CCEAD1E51920B72F000E8B1B /* InfoPlist.strings */,
+				CCEAD1E81920B72F000E8B1B /* main.m */,
+				CCEAD1EA1920B72F000E8B1B /* TestPDF-Prefix.pch */,
+				CCEAD1EB1920B72F000E8B1B /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCEAD2031920B72F000E8B1B /* TestPDFTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCEAD2091920B72F000E8B1B /* TestPDFTests.m */,
+				CCEAD2041920B72F000E8B1B /* Supporting Files */,
+			);
+			path = TestPDFTests;
+			sourceTree = "<group>";
+		};
+		CCEAD2041920B72F000E8B1B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCEAD2051920B72F000E8B1B /* TestPDFTests-Info.plist */,
+				CCEAD2061920B72F000E8B1B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCEAD1D81920B72F000E8B1B /* TestPDF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCEAD20D1920B72F000E8B1B /* Build configuration list for PBXNativeTarget "TestPDF" */;
+			buildPhases = (
+				CCEAD1D51920B72F000E8B1B /* Sources */,
+				CCEAD1D61920B72F000E8B1B /* Frameworks */,
+				CCEAD1D71920B72F000E8B1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestPDF;
+			productName = TestPDF;
+			productReference = CCEAD1D91920B72F000E8B1B /* TestPDF.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCEAD1FC1920B72F000E8B1B /* TestPDFTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCEAD2101920B72F000E8B1B /* Build configuration list for PBXNativeTarget "TestPDFTests" */;
+			buildPhases = (
+				CCEAD1F91920B72F000E8B1B /* Sources */,
+				CCEAD1FA1920B72F000E8B1B /* Frameworks */,
+				CCEAD1FB1920B72F000E8B1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCEAD2021920B72F000E8B1B /* PBXTargetDependency */,
+			);
+			name = TestPDFTests;
+			productName = TestPDFTests;
+			productReference = CCEAD1FD1920B72F000E8B1B /* TestPDFTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCEAD1D11920B72F000E8B1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Electricwoods LLC";
+				TargetAttributes = {
+					CCEAD1FC1920B72F000E8B1B = {
+						TestTargetID = CCEAD1D81920B72F000E8B1B;
+					};
+				};
+			};
+			buildConfigurationList = CCEAD1D41920B72F000E8B1B /* Build configuration list for PBXProject "TestPDF" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCEAD1D01920B72F000E8B1B;
+			productRefGroup = CCEAD1DA1920B72F000E8B1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCEAD1D81920B72F000E8B1B /* TestPDF */,
+				CCEAD1FC1920B72F000E8B1B /* TestPDFTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCEAD1D71920B72F000E8B1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCEAD1F31920B72F000E8B1B /* TSPDFDocument.xib in Resources */,
+				CCEAD1F81920B72F000E8B1B /* Images.xcassets in Resources */,
+				CCEAD1E71920B72F000E8B1B /* InfoPlist.strings in Resources */,
+				CCEAD1ED1920B72F000E8B1B /* Credits.rtf in Resources */,
+				CCEAD1F61920B72F000E8B1B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEAD1FB1920B72F000E8B1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCEAD2081920B72F000E8B1B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCEAD1D51920B72F000E8B1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCE6FEBA192116D1006B0CED /* NSEvent+View.m in Sources */,
+				CCEAD1E91920B72F000E8B1B /* main.m in Sources */,
+				CCEAD2151920B83C000E8B1B /* TSAppDelegate.m in Sources */,
+				CCEAD2181920BA74000E8B1B /* TSPDFView.m in Sources */,
+				CCEAD1F01920B72F000E8B1B /* TSPDFDocument.m in Sources */,
+				CCEAD21B1920C39E000E8B1B /* ZUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEAD1F91920B72F000E8B1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCEAD20A1920B72F000E8B1B /* TestPDFTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCEAD2021920B72F000E8B1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCEAD1D81920B72F000E8B1B /* TestPDF */;
+			targetProxy = CCEAD2011920B72F000E8B1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCEAD1E51920B72F000E8B1B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCEAD1E61920B72F000E8B1B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CCEAD1EB1920B72F000E8B1B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCEAD1EC1920B72F000E8B1B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CCEAD1F11920B72F000E8B1B /* TSPDFDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCEAD1F21920B72F000E8B1B /* Base */,
+			);
+			name = TSPDFDocument.xib;
+			sourceTree = "<group>";
+		};
+		CCEAD1F41920B72F000E8B1B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCEAD1F51920B72F000E8B1B /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		CCEAD2061920B72F000E8B1B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCEAD2071920B72F000E8B1B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCEAD20B1920B72F000E8B1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CCEAD20C1920B72F000E8B1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CCEAD20E1920B72F000E8B1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestPDF/TestPDF-Prefix.pch";
+				INFOPLIST_FILE = "TestPDF/TestPDF-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CCEAD20F1920B72F000E8B1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestPDF/TestPDF-Prefix.pch";
+				INFOPLIST_FILE = "TestPDF/TestPDF-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CCEAD2111920B72F000E8B1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestPDF.app/Contents/MacOS/TestPDF";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestPDF/TestPDF-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TestPDFTests/TestPDFTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CCEAD2121920B72F000E8B1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestPDF.app/Contents/MacOS/TestPDF";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestPDF/TestPDF-Prefix.pch";
+				INFOPLIST_FILE = "TestPDFTests/TestPDFTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCEAD1D41920B72F000E8B1B /* Build configuration list for PBXProject "TestPDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCEAD20B1920B72F000E8B1B /* Debug */,
+				CCEAD20C1920B72F000E8B1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCEAD20D1920B72F000E8B1B /* Build configuration list for PBXNativeTarget "TestPDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCEAD20E1920B72F000E8B1B /* Debug */,
+				CCEAD20F1920B72F000E8B1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCEAD2101920B72F000E8B1B /* Build configuration list for PBXNativeTarget "TestPDFTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCEAD2111920B72F000E8B1B /* Debug */,
+				CCEAD2121920B72F000E8B1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCEAD1D11920B72F000E8B1B /* Project object */;
+}
